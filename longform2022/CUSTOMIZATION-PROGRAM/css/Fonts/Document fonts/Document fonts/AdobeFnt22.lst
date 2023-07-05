@@ -1,0 +1,261 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/AdobeFnt22.lst
+FileLength:37
+FileModTime:686088276
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GretaTextPro-RegularMin
+FamilyName:Greta Text Pro
+StyleName:Regular -)
+MenuName:Greta Text Pro RegMin
+StyleBits:0
+WeightClass:387
+WidthClass:5
+AngleClass:0
+FullName:Greta Text Pro Regular -)
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/GretaTextPro-RegularMin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:397476
+FileModTime:241597542
+NameArray:0,Mac,4,Greta Text Pro Regular (-)
+NameArray:0,Win,1,Greta Text Pro RegMin
+NameArray:0,Win,16,Greta Text Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KarloffNegativePro-Bld
+FamilyName:Karloff Negative Pro
+StyleName:Bold
+MenuName:Karloff Negative Pro Bld
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Karloff Negative Pro Bld
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Karloff Negative Pro Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:254485
+FileModTime:509155416
+NameArray:0,Mac,18,Karloff Negative Pro Bold
+NameArray:0,Mac,4,Karloff Negative Pro Bld
+NameArray:0,Win,1,Karloff Negative Pro Bld
+NameArray:0,Win,16,Karloff Negative Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KarloffPositivePro-Bld
+FamilyName:Karloff Positive Pro
+StyleName:Bold
+MenuName:Karloff Positive Pro Bld
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Karloff Positive Pro Bld
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Karloff Positive Pro Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:249477
+FileModTime:509155480
+NameArray:0,Mac,18,Karloff Positive Pro Bold
+NameArray:0,Mac,4,Karloff Positive Pro Bld
+NameArray:0,Win,1,Karloff Positive Pro Bld
+NameArray:0,Win,16,Karloff Positive Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MalloryBold-Regular
+FamilyName:Mallory Bold
+StyleName:Regular
+MenuName:Mallory Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Mallory Bold Regular
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Mallory Bold Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:169744
+FileModTime:470685864
+NameArray:0,Mac,4,Mallory Bold Regular
+NameArray:0,Win,1,Mallory Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MalloryBook-Regular
+FamilyName:Mallory Book
+StyleName:Regular
+MenuName:Mallory Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Mallory Book Regular
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Mallory Book Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:165272
+FileModTime:470685864
+NameArray:0,Mac,4,Mallory Book Regular
+NameArray:0,Win,1,Mallory Book
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MalloryMPBold-Regular
+FamilyName:Mallory MP Bold
+StyleName:Regular
+MenuName:Mallory MP Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Mallory MP Bold Regular
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Mallory MP Bold Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:241156
+FileModTime:470685864
+NameArray:0,Mac,4,Mallory MP Bold Regular
+NameArray:0,Win,1,Mallory MP Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MalloryMPBook-Regular
+FamilyName:Mallory MP Book
+StyleName:Regular
+MenuName:Mallory MP Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Mallory MP Book Regular
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/Mallory MP Book Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:239148
+FileModTime:470685864
+NameArray:0,Mac,4,Mallory MP Book Regular
+NameArray:0,Win,1,Mallory MP Book
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:iCielTungstenNarrow-Book
+FamilyName:iCiel Tungsten Narrow
+StyleName:Book
+MenuName:iCiel Tungsten Narrow Book
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:iCiel Tungsten Narrow Book
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/iCielTungstenNarrow-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:54080
+FileModTime:588564116
+NameArray:0,Mac,4,iCiel Tungsten Narrow Book
+NameArray:0,Win,1,iCiel Tungsten Narrow Book
+NameArray:0,Win,16,iCiel Tungsten Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:iCielTungstenNarrow-Medium
+FamilyName:iCiel Tungsten Narrow
+StyleName:Medium
+MenuName:iCiel Tungsten Narrow Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:iCiel Tungsten Narrow Medium
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/iCielTungstenNarrow-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:53396
+FileModTime:588564116
+NameArray:0,Mac,4,iCiel Tungsten Narrow Medium
+NameArray:0,Win,1,iCiel Tungsten Narrow Medium
+NameArray:0,Win,16,iCiel Tungsten Narrow
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:iCielTungstenNarrow-Semibold
+FamilyName:iCiel Tungsten Narrow
+StyleName:Semibold
+MenuName:iCiel Tungsten Narrow Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:iCiel Tungsten Narrow Semibold
+WritingScript:Roman
+OutlineFileName:/Volumes/Mac Os/New_Job_chua_loc/Luxuo_Longform_2022/materials/Prestige/P_136-159_PROGRAM Folder/Document fonts/iCielTungstenNarrow-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55124
+FileModTime:588564116
+NameArray:0,Mac,4,iCiel Tungsten Narrow Semibold
+NameArray:0,Win,1,iCiel Tungsten Narrow Semibold
+NameArray:0,Win,16,iCiel Tungsten Narrow
+%EndFont
+

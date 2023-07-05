@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Mallory";
+  src: url("../fonts/Mallory/Mallory Book Regular.ttf");
+}
+
+@font-face {
+  font-family: "Tungsten";
+  src: url("../fonts/Tungsten/iCielTungstenNarrow-Book.otf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/SVN-Helvetica Neue Bold.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir/AvenirNextW1G-Bold.otf");
+}
+
+@font-face {
+  font-family: "UTM Bebas";
+  src: url("../fonts/UTM/UTM Bebas.ttf");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../fonts/Cormorant/Cormorant-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Greta";
+  src: url("../fonts/Greta/GretaTextPro-RegularMin.otf");
+}
+
+@font-face {
+  font-family: "Karloff_Positive";
+  src: url("../fonts/Karloff_Positive/Karloff Positive Pro Bold.otf");
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFEF2;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Tungsten";
+}
+
+ul,ol,li {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	padding: 0;
+	font-family: "Tungsten";
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+*/
+p {
+	font-family: "Mallory";
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3 {
+	font-family: "Tungsten";
+}
+
+h4,h5,h6 {
+	font-family: "Helvetica";
+}
+

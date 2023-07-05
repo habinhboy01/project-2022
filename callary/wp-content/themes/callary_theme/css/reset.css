@@ -1,0 +1,36 @@
+@font-face {
+	font-family: EBGaramond;
+	src:url("../fonts/static/EBGaramond-Regular.ttf");
+}
+
+@font-face {
+	font-family: GreatVibes;
+	src:url("../fonts/GreatVibes-Regular.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	font-family: EBGaramond;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	font-family: EBGaramond;
+}

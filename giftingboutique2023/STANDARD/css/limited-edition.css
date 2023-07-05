@@ -1,0 +1,432 @@
+.intro-limited {
+  position: relative;
+}
+
+.img-limited {
+  width: 100%;
+  height: auto;
+}
+
+.title-limited {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: 600;
+  font-size: 128px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  background: linear-gradient(93.04deg, #c9ab7c 19.81%, #ead7a3 74.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.display2 {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .title-limited {
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .display {
+    display: none;
+  }
+
+  .display2 {
+    display: block;
+  }
+
+  .title-limited {
+    font-size: 70px;
+  }
+}
+
+/*-------------*/
+
+.bg-limited {
+  background-image: url(../images/Limited-Edition/img2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.img-limited2 {
+  padding: 60px 0;
+}
+
+.list-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-img img {
+  width: 33.33%;
+  height: auto;
+}
+
+/*Nơi hội tụ nghệ thuật và văn hóa */
+
+.content-limited {
+  margin-top: 60px;
+}
+
+.title-limited2 {
+  font-family: "Karloff_Positive";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.text-limited {
+  font-family: "Greta";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 0 90px;
+}
+
+.content-limited2 {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-limited2 img {
+  width: 40%;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-limited3 {
+  margin-top: 20px;
+}
+
+.content-limited3 img {
+  padding: 30px;
+}
+
+.content-limited3 a {
+  color: white;
+}
+
+.title-limited3 {
+  font-family: "Karloff_Positive";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/*slider product*/
+
+.carousel_1 {
+  position: relative;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 52%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.owl-dots {
+  margin-top: 20px;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: unset;
+}
+
+.content-limited4 {
+  align-items: center;
+}
+
+.content-limited5 {
+  padding-left: 18%;
+}
+
+.title-limited4 {
+  font-family: "Karloff_Positive";
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+}
+
+.text-limited2 {
+  font-family: "Greta";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+@media (max-width: 1400px) {
+  .btn-prev img,
+  .btn-next img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .content-limited3 img {
+    padding: 20px;
+  }
+
+  .content-limited5 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 740px) {
+  .text-limited {
+    padding: 0;
+  }
+
+  .content-limited2 img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-limited2 {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .list-img {
+    display: unset;
+  }
+
+  .list-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .item img {
+    padding: 60px;
+  }
+
+  .owl-nav {
+    top: 35%;
+    padding: 0 10px;
+  }
+
+  .text-limited {
+    text-align: justify;
+  }
+
+  .content-limited2 img {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/*Trân phẩm hoàng gia*/
+
+.bg-limited2 {
+  background-color: #011f39;
+  text-align: center;
+  color: white;
+}
+
+.list-img2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-img3:nth-child(1) img {
+  margin-bottom: 30px;
+}
+
+.content-limited6 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.text-limited3 {
+  font-family: "Helvetica";
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .list-img2 img {
+    width: 35%;
+  }
+}
+
+@media (max-width: 450px) {
+  .list-img2 img {
+    width: 45%;
+  }
+
+  .list-img3:nth-child(1) img {
+    margin-top: 30px;
+  }
+}
+
+/*2023 festive home bar*/
+
+.bg-limited3 {
+  background-image: url(../images/Limited-Edition/img22.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 30px 20px;
+}
+
+.bg-limited4 {
+  background-color: #1e0f0b;
+  color: white;
+  padding: 45px 25px;
+}
+
+.bg-limited4 h2,
+.bg-limited4 h3,
+.bg-limited4 h4 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.bg-limited4 h2 {
+  color: #4358a2;
+  font-size: 50px;
+}
+
+.bg-limited4 h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.bg-limited4 h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 360px) {
+  .bg-limited4 h2 {
+    font-size: 40px;
+  }
+
+  .bg-limited4 h3 {
+    font-size: 25px;
+  }
+}
+
+/*footer*/
+
+.bg-footer {
+  background-color: #101726;
+  text-align: center;
+  position: relative;
+}
+
+.bg-footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.img-footer,
+.img-footer3 {
+  width: 30%;
+}
+
+.img-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-footer3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.img-footer2 {
+  padding: 90px 0;
+}
+
+.img-footer2 img {
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.display4 {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .img-footer2 {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-footer,
+  .img-footer3 {
+    width: 100%;
+  }
+
+  .img-footer2 {
+    padding: 350px 0;
+  }
+
+  .display3 {
+    display: none;
+  }
+
+  .display4 {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-footer2 {
+    padding: 200px 0;
+  }
+
+  .img-footer2 img {
+    width: 45%;
+  }
+
+  .bg-footer h2 {
+    font-size: 28px;
+  }
+
+  .img-footer,
+  .img-footer3 {
+    width: 100%;
+  }
+}

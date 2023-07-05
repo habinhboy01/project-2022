@@ -1,0 +1,67 @@
+
+html,
+body,
+blockquote,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.lf-w-100 {
+  width: 100%;
+}
+
+.lf-h-auto {
+  height: auto;
+}
+
+.lf-text-upper {
+  text-transform: uppercase;
+}
+
+.cl-white {
+  color: white;
+}
+
+.cl-black {
+   color: black;
+}
+
+.cl-light-01 {
+  color: #b7b7b7;
+}
+
+.lf-text-center {
+  text-align: center;
+}

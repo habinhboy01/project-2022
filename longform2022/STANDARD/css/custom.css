@@ -1,0 +1,662 @@
+/*phần johnnie walker*/
+
+.johnnie-walker {
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+.img-walker {
+	width: 100%;
+	height: auto;
+}
+
+.img-walker3 {
+	display: none;
+}
+
+.text-walker {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.title-walker {
+	width: 66%;
+    margin: 40px auto;
+    text-align: justify;
+}
+
+@media(max-width: 991px) {
+	.title-walker {
+		width: 100%;
+	}
+}
+
+@media(max-width: 740px) {
+	.text-walker {
+		font-size: 16px;
+	}
+
+	.img-walker3 {
+		display: block;
+	}
+
+	.img-walker4 {
+		display: none;
+	}
+}
+
+@media(max-width: 450px) {
+	.johnnie-walker {
+		margin-top: 40px;
+	}
+}
+
+
+
+/*Johnnie Walker Limited Edition*/
+
+.text-limied {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 90px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #AA752A;
+	margin-top: 90px;
+}
+
+.text-limied2 {
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #AA752A;
+	margin-top: 10px;
+}
+
+.limited {
+	justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.limited div {
+	margin-bottom: 45px;
+}
+
+/*slider product*/
+
+.carousel_1 {
+	position: relative;
+}
+
+.bg-johnnie-walker {
+	background-color: #344D36;
+	color: white;
+	padding: 60px 0;
+}
+
+.bg-johnnie-walker2 {
+	background-color: #480001;
+}
+
+.bg-johnnie-walker3 {
+	background-color: #F3EAD8;
+	color: black;
+}
+
+.bg-johnnie-walker4 {
+	background-color: white;
+	color: black;
+}
+
+.bg-johnnie-walker5 {
+	background-color: #975F3E;
+}
+
+.bg-johnnie-walker6 {
+	background-color: #232029;
+}
+
+#img-johnnie-walker {
+	height: 1500px;
+	object-fit: cover;
+}
+
+#img-johnnie-walker2 {
+	padding: 40px 0;
+}
+
+.text-limied3 {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.text-limied4 {
+	display: block;
+	height: 230px;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.owl-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+}
+
+.owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+	background: unset;
+}
+
+@media(max-width: 1400px) {
+	#img-johnnie-walker {
+		height: 1100px;
+	}
+
+	.text-limied4 {
+		height: 280px;
+	}
+}
+
+@media(max-width: 1200px) {
+	#img-johnnie-walker {
+		height: 975px;
+	}
+
+	.text-limied4 {
+		height: 300px;
+	}
+}
+
+@media(max-width: 1024px) {
+	#img-johnnie-walker {
+		height: 846px;
+	}
+}
+
+@media(max-width: 991px) {
+	.limited {
+		justify-content: unset;
+		margin-bottom: 20px;
+	}
+
+	.text-limied {
+		font-size: 70px;
+		margin-top: 65px;
+	}
+
+	.text-limied2 {
+		font-size: 15px;
+	}
+
+	#img-johnnie-walker {
+		height: 708px;
+	}
+
+	.bg-johnnie-walker {
+		text-align: center;
+	}
+}
+
+@media(max-width: 740px) {
+	.bg-johnnie-walker {
+		padding-top: 0;
+	}
+
+	#img-johnnie-walker {
+		height: 610px;
+	}
+
+	.text-limied4 {
+		height: 360px;
+	}
+}
+
+@media(max-width: 450px) {
+	.limited div {
+		margin-bottom: 20px;
+	}
+
+	#img-johnnie-walker {
+		height: 340px;
+	}
+
+	.owl-nav {
+		padding: 0 10px;
+	}
+
+	.btn-next img,
+	.btn-prev img {
+		width: 70%;
+	}
+
+	.text-limied3 {
+		font-size: 30px;
+	}
+
+	.text-limied4 {
+		font-size: 15px;
+	}
+}
+
+/*JOHNNIE WALKER TET 2023 LIMITED EDITION*/
+
+.johnnie-walker2 {
+	background-image: url(../images/img179.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.text-limied5 {
+	background: linear-gradient(93.04deg, #C9AB7C 19.81%, #EAD7A3 74.09%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 0;
+}
+
+.limited2 {
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.limited2 div {
+	margin-bottom: 40px;
+}
+
+.text-limied6 {
+	color: white;
+}
+
+/*slider product 2*/
+
+.carousel_2 {
+	position: relative;
+}
+
+.bg-gift {
+    color: white;
+    position: relative;
+}
+
+.content-gift {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+
+#img-gift {
+	height: 1300px;
+	object-fit: cover;
+}
+
+#logo-gift {
+	height: 200px;
+    object-fit: scale-down;
+    margin-bottom: 40px;
+}
+
+#product2 {
+	display: none;
+}
+
+@media(max-width: 1700px) {
+	.content-gift {
+		width: 30%;
+	    top: 15%;
+	    right: 12%;
+	}
+}
+
+@media(max-width: 1500px) {
+	.content-gift {
+		width: 35%;
+	}
+}
+
+@media(max-width: 1400px) {
+	#img-gift {
+		height: 952px;
+	}
+
+	.content-gift {
+		top: 5%;
+	}
+}
+
+@media(max-width: 1024px) {
+	#product {
+		display: none;
+	}
+
+	#product2 {
+		display: block;
+	}
+
+	.bg-gift2 {
+		background-image: url(../images/img182.png);
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 100%;
+	    color: white;
+	    padding-top: 65px;
+    	padding-bottom: 40%;
+    	text-align: center;
+	}
+
+	.bg-gift3 {
+		background-image: url(../images/img183.png);
+	}
+
+	#logo-gift2 {
+		width: 20%;
+    	margin: auto;
+    	margin-top: 30px;
+	}
+}
+
+@media(max-width: 991px) {
+	.bg-gift2 {
+		padding-bottom: 20%;
+	}
+
+	.limited2 {
+		justify-content: unset;
+	}
+}
+
+@media(max-width: 450px) {
+	.bg-gift2 {
+		padding-bottom: 40%;
+	}
+
+	#logo-gift2 {
+		width: 35%;
+	}
+}
+
+/*Nâng ly vì chiến thắng Johnnie Keep Walking.*/
+
+.keep-walking {
+	position: relative;
+}
+
+.text-keep {
+    background: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: white;
+    padding: 20px 45px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+/*slider product 3*/
+
+.keep-walking2 {
+	background-color: #221811;
+	padding: 110px;
+}
+
+.text-keep2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	text-align: center;
+	color: black;
+	position: absolute;
+    right: 8%;
+    bottom: 20%;
+    width: 20%;
+}
+
+@media(max-width: 1220px) {
+	.text-keep2 {
+		width: 30%;
+		right: 4%;
+	}
+}
+
+@media(max-width: 991px) {
+	.text-keep {
+		font-size: 40px;
+		padding: 20px;
+		right: 5%;
+	}
+
+	.keep-walking2 {
+		padding: 0;
+		padding-bottom: 50px;
+	}
+
+	.text-keep2 {
+		position: unset;
+		color: white;
+		width: 100%;
+		padding: 25px 40px;
+		font-size: 35px;
+	}
+
+	.keep-walking2 > .owl-nav {
+		top: 36%;
+	}
+}
+
+@media(max-width: 450px) {
+	.text-keep {
+		font-size: 30px;
+		left: 15%;
+		right: unset;
+	}
+
+	.text-keep2 {
+		font-size: 25px;
+		padding: 25px 20px;
+	}
+}
+
+/*slider product 4*/
+
+.bg-keep-walking {
+	background-image: url(../images/img186.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.bg-keep-walking2 {
+	background-image: url(../images/img189.png);
+}
+
+.bg-keep-walking3 {
+	background-image: url(../images/img195.png);
+}
+
+.bg-keep-walking4 {
+	position: relative;
+	color: white;
+}
+
+.content-keep-walking {
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 35px;
+}
+
+#img-keep-walking {
+	height: 200px;
+	object-fit: scale-down;
+}
+
+#img-keep-walking2 {
+	width: 2%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#img-keep-walking3,
+#img-keep-walking4 {
+	width: 40%;
+}
+
+#img-keep-walking3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#img-keep-walking4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#img-keep-walking5 {
+	width: 2%;
+	position: absolute;
+	top: 10%;
+	right: 0;
+}
+
+.content-keep-walking3 {
+	width: 30%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.content-keep-walking4 {
+	width: 30%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+
+#img-keep-walking6 {
+    height: 200px;
+    margin-bottom: 35px;
+    object-fit: scale-down;
+}
+
+
+.bg-keep-walking4-mobile {
+	display: none;
+}
+
+#img-keep-walking8 {
+	width: 2%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+
+@media(max-width: 1200px) {
+
+	.content-keep-walking {
+		margin-top: 30px;
+	}
+
+	.content-keep-walking3 {
+		width: 55%;
+		top: 5%;
+		left: 8%;
+	}
+
+	.content-keep-walking4 {
+		width: 55%;
+		top: 5%;
+		right: 8%;
+	}
+}
+
+@media(max-width: 991px) {
+	#img-keep-walking2,
+	#img-keep-walking5,
+	.display-keep {
+		display: none;
+	}
+
+	.content-keep-walking2 {
+		flex-direction: column-reverse;
+	}
+
+	#img-keep-walking3,
+	#img-keep-walking4 {
+		width: 75%;
+	}
+
+	.bg-keep-walking4-mobile {
+		display: block;
+		text-align: center;
+	}
+
+	.bg-keep-walking4-mobile2 {
+		background-image: url(../images/img48.png);
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 100%;
+	    color: white;
+	    padding: 50px 0;
+	}
+
+	.bg-keep-walking4-mobile3 {
+		background-image: url(../images/img51.png);
+	}
+
+	.bg-keep-walking4-mobile4 {
+		background-image: url(../images/img54.png);
+	}
+
+	.bg-keep-walking4-mobile5 {
+		background-image: url(../images/img57.png);
+	}
+
+	.bg-keep-walking4-mobile6 {
+		background-image: url(../images/img61.png);
+	}
+
+	.bg-keep-walking4-mobile7 {
+		background-image: url(../images/img64.png);
+	}
+
+	.keep-walking3 > .owl-nav {
+		top: 30%;
+	}
+}
+

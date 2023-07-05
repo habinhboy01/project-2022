@@ -1,0 +1,114 @@
+/* responsive */
+
+@media (max-width: 1400px) {
+  .collection-container {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 991px) {
+  body {
+    display: block;
+  }
+
+  /* address */
+
+  .ss-address {
+    padding: 53% 0;
+  }
+
+  .ss-address::before {
+    background-image: url("../images/bg-add-left-mb.png");
+    background-size: contain;
+    background-position: right top;
+    width: 100%;
+    padding-top: 53%;
+  }
+
+  .ss-address::after {
+    background-image: url("../images/bg-add-right-mb.png");
+    width: 100%;
+    padding-top: 53%;
+    background-size: contain;
+    background-position: left bottom;
+  }
+
+  .ss-address__logo {
+    padding-top: 69%;
+  }
+
+  .ss-address__content {
+    padding: 0;
+  }
+  /* end address */
+
+  .lf-top__image {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
+  .collection-dots__item h4 {
+    font-size: calc(10px + 1.74vw);
+  }
+
+  .collect-tet-slider__product-image {
+    position: relative;
+    padding-top: 114.93%;
+    margin-bottom: 45px;
+  }
+
+  .collect-wedding-slider__product-image {
+    position: relative;
+    padding-top: 125.75%;
+    margin-bottom: 45px;
+  }
+  
+  .collect-personalized-slider__product-image {
+    position: relative;
+    padding-top: 115.21%;
+    margin-bottom: 45px;
+  }
+
+  .collect-tet-slider .dots-custom,
+  .collect-wedding-slider .dots-custom,
+  .collect-personalized-slider .dots-custom {
+    bottom: initial;
+  }
+
+  .collect-tet-slider__product-image img,
+  .collect-wedding-slider__product-image img,
+  .collect-personalized-slider__product-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+  }
+}
+
+@media (max-width: 576px) {
+  .lf-program-intro__title br {
+    display: none;
+  }
+
+  .collection-container {
+    padding: 0;
+  }
+
+  .collect-slider .slick-prev {
+    left: 0;
+  }
+
+  .collect-slider .slick-next {
+    right: 0;
+  }
+
+  .collection-dots__item h4 {
+    font-size: calc(10px + 1.4vw);
+  }
+
+  .lf-program-intro__title {
+    display: none;
+  }
+}

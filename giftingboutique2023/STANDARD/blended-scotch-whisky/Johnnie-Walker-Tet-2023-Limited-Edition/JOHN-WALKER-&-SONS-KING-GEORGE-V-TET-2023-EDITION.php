@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>JOHN WALKER & SONS King George V Tet 2023 Edition</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap5/css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets//owl.theme.default.min.css">
+
+    <!-- library animation -->
+    <link rel="stylesheet" type="text/css" href="../../css/aos.css">
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.ico" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+        <!-- Style Menu -->
+        <?php
+    $direct = '../../../';
+    ?>
+    <link rel="stylesheet" href="<?php echo $direct ?>assets/css/menu.css" />
+</head>
+
+    
+
+    <!-- phần thân -->
+
+    <!-- pc -->
+
+   <div id="product">
+
+        <!-- slide 1 -->
+
+        <div class="bg-gift">
+            <img id="img-gift" src="../../images/img184.png">
+
+            <div class="content-gift">
+                <img id="logo-gift" src="../../images/img23.png">
+
+                <h2 class="text-limied3">TRÂN PHẨM HOÀNG GIA</h2>
+
+                <p class="text-limied4">John Walker & Sons King George V phiên bản Tết 2023 chính là tặng phẩm
+                    đẳng
+                    cấp dành cho các đối tác kinh doanh, là lời chúc ý nghĩa trong Tết Nguyên Đán. Họa tiết trên
+                    bao
+                    bì năm nay đến từ Nhà thiết kế Thời trang Angel Chen với hình tượng Peng, một loài chim thần
+                    thoại tượng trưng cho điềm lành và lời chúc năm mới nhiều khát vọng. Chất vị đặc trưng sở
+                    hữu
+                    hương thơm ngọt ngào đậm khói của nhà chưng cất Port Ellen được làm đầy với hương cam quýt
+                    và
+                    trái cây Địa Trung Hải, cho ra phổ vị phong phú. Các tầng hương trái cây, sô-cô-la đen, kẹo
+                    bơ
+                    cứng, gia vị và hạt rang hòa quyện trước khi kết lại ấm áp với hạt tiêu. Đây chính là tặng
+                    phẩm
+                    đầu năm dành cho các đối tác – những người luôn cùng ta “Keep Walking”.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- slide product 2 mobile -->
+
+    <div id="product2">
+
+        <!-- slide 1 -->
+
+        <img class="img-walker" src="../../images/img180.png">
+
+        <div class="bg-gift2">
+            <div class="container">
+                <img id="logo-gift" src="../../images/img23.png">
+
+                <h2 class="text-limied3">TRÂN PHẨM HOÀNG GIA</h2>
+
+                <p class="text-limied4">John Walker & Sons King George V phiên bản Tết 2023 chính là tặng phẩm đẳng
+                    cấp dành cho các đối tác kinh doanh, là lời chúc ý nghĩa trong Tết Nguyên Đán. Họa tiết trên bao
+                    bì năm nay đến từ Nhà thiết kế Thời trang Angel Chen với hình tượng Peng, một loài chim thần
+                    thoại tượng trưng cho điềm lành và lời chúc năm mới nhiều khát vọng. Chất vị đặc trưng sở hữu
+                    hương thơm ngọt ngào đậm khói của nhà chưng cất Port Ellen được làm đầy với hương cam quýt và
+                    trái cây Địa Trung Hải, cho ra phổ vị phong phú. Các tầng hương trái cây, sô-cô-la đen, kẹo bơ
+                    cứng, gia vị và hạt rang hòa quyện trước khi kết lại ấm áp với hạt tiêu. Đây chính là tặng phẩm
+                    đầu năm dành cho các đối tác – những người luôn cùng ta “Keep Walking”.</p>
+
+                <img id="logo-gift2" src="../../images/img26.png">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Header Menu -->
+    <?php
+    $isTab = 'standard';
+    $isPage = 'standard-blended';
+    require_once $direct .'header-menu.php' ?>
+
+
+    <!-- footer -->
+    <?php
+    require_once $direct .'footer.php';
+    ?>
+
+<!-- bootstrap -->
+<script src="../../vendor/bootstrap5/js/bootstrap.min.js"></script>
+
+<!-- Thư Viện carousel js -->
+<script src="../../vendor/OwlCarousel/dist/owl.carousel.min.js"></script>
+
+<!-- library animation js -->
+<script type="text/javascript" src="../../js/aos.js"></script>
+
+<!-- My Js -->
+<script type="text/javascript" src="../../js/blended-scotch-whisky.js"></script>
+<script type="text/javascript" src="../../js/style.js"></script>
+
+
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>

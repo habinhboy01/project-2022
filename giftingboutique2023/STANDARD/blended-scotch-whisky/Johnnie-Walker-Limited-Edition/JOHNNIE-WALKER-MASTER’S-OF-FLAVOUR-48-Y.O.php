@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>JOHNNIE WALKER Master’s of Flavour 48 Y.O</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap5/css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets//owl.theme.default.min.css">
+
+    <!-- library animation -->
+    <link rel="stylesheet" type="text/css" href="../../css/aos.css">
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.ico" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+            <!-- Style Menu -->
+            <?php
+    $direct = '../../../';
+    ?>
+    <link rel="stylesheet" href="<?php echo $direct ?>assets/css/menu.css" />
+</head>
+
+    
+
+    <!-- phần thân -->
+
+    <div class="owl-carousel owl-theme carousel_1" id="JohnnieWalkerLimitedEditionSlider">
+
+        <!-- slider 1 -->
+
+        <div class="item">
+            <img id="img-johnnie-walker" src="../../images/img9-1.png">
+        </div>
+
+        <!-- slider 2 -->
+
+        <div class="item">
+            <img id="img-johnnie-walker" src="../../images/img9-2.png">
+        </div>
+
+        <!-- slider 3 -->
+
+        <div class="item">
+            <img id="img-johnnie-walker" src="../../images/img9-3.png">
+        </div>
+    </div>
+
+    <!-- nội dung -->
+
+    <div class="bg-johnnie-walker">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 text-center">
+                    <img id="img-johnnie-walker2" src="../../images/img12.png">
+                </div>
+
+                <div class="col-lg-8 col-12">
+                    <h2 class="text-limied3">THƯỢNG VỊ ĐỈNH CAO</h2>
+
+                    <p class="text-limied4">Với chỉ 288 chai tôn vinh nghệ thuật thủ công và hoàn thiện bộ ba
+                        Master’s Series, Johnnie Walker Masters of Flavour 48 Y.O được xem như đỉnh cao của giới
+                        sưu tầm rượu mà rất ít ai có cơ hội sở hữu. Whisky được làm thủ công bằng cách pha chế
+                        các loại rượu whisky hiếm gặp – tất cả đều được ủ trong vòng ít nhất 48 năm – từ 4 nhà
+                        chưng cất “ma” của Port Dundas, Brora, Glen Albyn và Glenury Royal. được cân bằng hoàn
+                        hảo với rượu whisky từ Cameronbridge, Blair Athol và Dalwhinnie.
+                        Chất rượu sánh vàng quý giá được chứa trong chai Baccarat tuyệt đẹp, như một sự tưởng
+                        thưởng xứng đáng dành cho hương vị 48 năm tuổi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Header Menu -->
+    <?php
+    $isTab = 'standard';
+    $isPage = 'standard-blended';
+    require_once $direct .'header-menu.php' ?>
+
+
+    <!-- footer -->
+    <?php
+    require_once $direct .'footer.php';
+    ?>
+
+<!-- bootstrap -->
+<script src="../../vendor/bootstrap5/js/bootstrap.min.js"></script>
+
+<!-- Thư Viện carousel js -->
+<script src="../../vendor/OwlCarousel/dist/owl.carousel.min.js"></script>
+
+<!-- library animation js -->
+<script type="text/javascript" src="../../js/aos.js"></script>
+
+<!-- My Js -->
+<script type="text/javascript" src="../../js/blended-scotch-whisky.js"></script>
+<script type="text/javascript" src="../../js/style.js"></script>
+
+
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>

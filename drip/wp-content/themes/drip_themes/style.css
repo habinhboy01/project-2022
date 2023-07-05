@@ -1,0 +1,98 @@
+.bg-menu {
+	display: none;
+	background: #65cac9;
+    padding: 5px 0;
+}
+
+.sticky {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 5;
+	transition: 0.4s;
+}
+
+.menu-pc {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-header {
+	width: 16%;
+	height: auto;
+}
+
+.list-menu {
+	display: flex;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.list-menu li {
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+.list-menu li:hover {
+	color: #FFF280;
+	border-bottom: 3px solid #FFF280;
+	transition: 0.5s;
+}
+
+.bg-mobile {
+	display: none;
+}
+
+@media(max-width: 991px) {
+	.sticky {
+		display: none;
+	}
+
+	.bg-mobile {
+		background: #65cac9;
+	    padding: 15px 0;
+	}
+	.sticky2 {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 5;
+		transition: 0.4s;
+	}
+
+	.menu-mobile {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo-mobile {
+		width: 35%;
+	}
+
+	.icon-bar {
+		font-size: 25px;
+		color: white;
+	}
+
+	.list-menuMobile {
+		display: none;
+	    color: white;
+	    font-size: 17px;
+	    font-weight: bold;
+	    padding-top: 15px;
+	    line-height: 3;
+	    text-align: center;
+	}
+
+	.list-menuMobile li {
+		cursor: pointer;
+	}
+}

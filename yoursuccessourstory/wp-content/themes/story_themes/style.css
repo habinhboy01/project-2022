@@ -1,0 +1,447 @@
+.bg-story {
+	position: relative;
+	margin-top: 30px;
+}
+
+.color-text {
+	color: #4DABF7;
+}
+
+.text-story {
+	font-weight: 400;
+	font-size: 24px;
+	position: absolute;
+    top: 0;
+    left: 65px;
+}
+
+/*business*/
+
+.bg-business {
+	margin-top: 60px;
+	align-items: center;
+}
+
+.text-business {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.3;
+}
+
+.img-business {
+	width: 100%;
+	height: auto;
+}
+
+@media(max-width: 991px) {
+	.text-business {
+		font-size: 40px;
+    	line-height: 1.5;
+	}
+}
+
+@media(max-width: 450px) {
+	.img-business {
+		margin-top: 50px;
+	}
+}
+
+/*reasons to join*/
+
+.bg-reasons {
+	background-image: url("./images/img3.png");
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 8%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.text-reasons {
+	font-weight: 400;
+	font-size: 48px;
+	text-align: center;
+}
+
+.list-reasons {
+	width: 90%;
+	background: white;
+	font-weight: 400;
+	font-size: 24px;
+	color: black;
+	box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	margin: 80px auto;
+	padding: 50px;
+}
+
+.list-reasons li {
+	display: flex;
+	align-items: center;
+	padding-bottom: 35px;
+}
+
+.list-reasons img {
+	padding-right: 20px;
+	object-fit: scale-down;
+}
+
+.training {
+	display: flex;
+	justify-content: center;
+}
+
+.training i {
+	font-size: 25px;
+}
+
+.training h1 {
+	font-weight: 400;
+	font-size: 24px;
+	padding: 0 30px;
+}
+
+.color-text2 {
+	color: #F73132;
+}
+
+@media(max-width: 450px) {
+	.list-reasons {
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	.list-reasons img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.training {
+		margin: auto;
+    	width: 80%;
+	}
+}
+
+/*mission*/
+
+.bg-mission {
+	margin-top: 8%;
+	text-align: center;
+}
+
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+
+.mission h1 {
+	font-weight: 700;
+	font-size: 48px;
+	margin-top: 57px;
+	padding: 0 30px;
+}
+
+.mission i {
+	font-size: 20px;
+}
+
+@media(max-width: 991px) {
+	.mission h1 {
+		font-size: 35px;
+	}
+}
+
+@media(max-width: 450px) {
+	.mission h1 {
+		font-size: 30px;
+	}
+
+	.img-mission {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*Register for a FREE */
+
+.bg-register {
+	text-align: center;
+	color: white;
+	background: linear-gradient(259deg, #7950F2 -2.52%, #4DABF7 55.99%);
+	padding: 90px 0;
+	margin-top: 6%;
+}
+
+.bg-register h1 {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.bg-register p {
+	font-weight: 700;
+	font-size: 24px;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+
+.btn-register {
+	background: #F73132;
+	box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+	padding: 14px 38px;
+}
+
+.btn-register:hover {
+	color: white;
+}
+
+/*description*/
+
+.bg-description {
+	position: relative;
+}
+
+.img-description2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img-description3 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.bg-description2 {
+	padding: 7% 0;
+}
+
+.text-description {
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	line-height: 2.3;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 1400px) {
+	.bg-description2 {
+		width: 70%;
+	}
+}
+
+@media(max-width: 1024px) {
+	.bg-description2 {
+		width: 60%;
+	}
+}
+
+@media(max-width: 450px) {
+	.bg-description2 {
+		width: 100%;
+	}
+
+	.img-description2,
+	.img-description3 {
+		display: none;
+	}
+}
+
+
+ /*Enhance the Lives*/
+
+.bg-enhance {
+ 	background: #F7F8FC;
+ 	position: relative;
+ 	margin-top: 50px;
+}
+
+.img-enhance2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img-enhance3 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.bg-enhance2 {
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.img-enhance {
+	width: 100%;
+	height: auto;
+}
+
+.title-enhance {
+	width: 68%;
+	margin: auto;
+}
+
+.title-enhance h1 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.5;
+}
+
+@media(max-width: 1400px) {
+	.bg-enhance2 {
+		padding-top: 12%;
+		padding-bottom: 12%;
+	}
+}
+
+@media(max-width: 1200px) {
+	.title-enhance h1 {
+		font-size: 35px;
+	}
+
+	.bg-enhance2 {
+		padding-top: 18%;
+		padding-bottom: 18%;
+	}
+}
+
+@media(max-width: 991px) {
+	.title-enhance h1 {
+		font-size: 27px;
+	}
+}
+
+@media(max-width: 450px) {
+	.bg-enhance2 {
+		padding-top: 35%;
+		padding-bottom: 35%;
+	}
+}
+
+/*workshop*/
+
+.bg-workshop {
+	background: linear-gradient(247.69deg, #7950F2 -2.86%, #4DABF7 64.55%);
+	text-align: center;
+    margin-top: 10px;
+    padding: 10% 0;
+    position: relative;
+}
+
+.img-workshop {
+	position: absolute;
+	top: 5%;
+	right: 3%;
+}
+
+.img-workshop2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.text-workshop {
+	font-weight: 700;
+	font-size: 60px;
+	color: white;
+}
+
+.text-workshop2 {
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	margin-top: 50px;
+}
+
+.form-workshop {
+	margin-top: 60px;
+	position: relative;
+	z-index: 2;
+}
+
+.form-workshop form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-workshop input {
+	width: 80%;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	padding-left: 12px;
+}
+
+#btn-workshop {
+	padding: 0 20px;
+	margin-top: 30px;
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+	background: #F73132;
+	box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+	border-radius: 5px;
+}
+
+@media(max-width: 991px) {
+	.form-workshop input {
+		width: 95%;
+	}
+}
+
+@media(max-width: 450px) {
+	.img-workshop,
+	.img-workshop2 {
+		display: none;
+	}
+
+	.form-workshop form {
+		flex-direction: column;
+	}
+
+	.text-workshop {
+		font-size: 48px;
+	}
+}
+
+/*copyright*/
+
+.copyright {
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+
+.line {
+	width: 35%;
+    border-top: 1px solid #00214D;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.text-copyright {
+	font-weight: 400;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+}
+
+@media(max-width: 991px) {
+	.copyright {
+		padding-top: 6%;
+	}
+
+	.line {
+		margin-bottom: 20px;
+	}
+}

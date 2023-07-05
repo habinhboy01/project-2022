@@ -1,0 +1,1695 @@
+/*body trang home*/
+
+.bg-intro {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: -62px;
+	position: relative;
+}
+
+.item {
+	overflow: hidden;
+}
+
+.bg-intro img {
+	height: 700px;
+	object-fit: cover;
+	opacity: 0.9;
+	animation: Inout 7s infinite;
+}
+
+@keyframes Inout {
+	0%,100% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+.owl-dots {
+	display: none;
+}
+
+.list-intro {
+	text-align: center;
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}	
+
+.list-intro h1 {
+	font-size: 80px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	animation-name: down;
+  	animation-duration: 4s;
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0, -100px);
+	}
+
+	50% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+} 
+
+.text-intro {
+	color: rgb(255, 255, 255);
+	font-size: 16px; 
+	animation-name: up;
+  	animation-duration: 4s;
+}
+
+.list-intro a {
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(255, 255, 255);
+	font-weight: 400;
+	font-size: 15px;
+}
+
+@keyframes up {
+	0% {
+		transform: translate(0, 100px);
+	}
+
+	50% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.text-intro2 {
+	background-color: #826618;
+	width: 497px;
+	padding: 10px 0;
+	border-radius: 3px;
+	animation-name: up;
+  	animation-duration: 6s;
+}
+
+.text-intro2 i {
+	padding-right: 10px;
+}
+
+.text-intro2:hover {
+	background-color: #c69930;
+	transition: 0.5s;
+}
+
+.owl-nav {
+	font-size: 30px;
+	color: white;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 3%;
+}
+
+.owl-next {
+	position: absolute;
+	right: 3%;
+}
+
+.owl-prev,.owl-next {
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: unset;
+}
+
+@media(max-width: 991px) {
+	.bg-intro {
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 450px) {
+	.text-intro2 {
+		width: 330px;
+	}
+
+	.bg-intro img {
+		height: 400px;
+	}
+
+	.owl-nav {
+		display: none;
+	}
+}
+
+/*Ưu đãi*/
+.bg-discount {
+	margin-top: 60px;
+}
+
+.text-icon {
+	color: #c69930;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.text-discount2 {
+	font-size: 18px;
+	color: #151515;
+}
+
+.text-discount2::after {
+	position: absolute;
+    display: block;
+    content: '';
+    margin-top: 20px;
+	background: #6b6a6a;
+    width: 56px;
+    height: 2px;
+}
+
+.content-discount {
+	margin-top: 45px;
+	position: relative;
+}
+
+.content-discount img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.ribbon {
+	position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+
+.text-rotate {
+	font-size: 14px;
+    width: 123px;
+    height: 30px;
+    line-height: 33px;
+    top: 19px;
+    left: -28px;
+    background: rgb(114,6,6);
+    background: linear-gradient(90deg, rgba(114,6,6,1) 0%, rgba(56,13,40,1) 33%, rgba(206,160,48,1) 66%, rgba(51,53,3,1) 100%);
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    box-shadow: 0 3px 10px -5px rgb(0 0 0);
+    position: absolute;
+}
+
+.text-rotate::before {
+	content: "";
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #b5191e;
+	left: 0;
+    border-left: 3px solid #b5191e;
+    border-right: 3px solid transparent;
+}
+
+.text-rotate::after {
+	content: "";
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #b5191e;
+	right: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #b5191e;
+}
+
+/*Trang trí nổi bật*/
+.content-decor {
+	display: none;
+}
+
+.content-decor img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.content-decor.display-decor {
+	display: block;
+}
+
+.content-decor2 {
+	width: 100%;
+	height: 103px;
+    background: #fff;
+    box-shadow: 0px 5px 15px -10px rgb(6 6 6);
+    border-bottom: 1px solid silver;
+    padding: 16px;
+    border-radius: 10px;
+    color: #151515;
+    cursor: pointer;
+}
+
+.text-decor {
+	font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.content-decor2:hover {
+	background-color: #826618;
+	color: white;
+	transition: 0.8s;
+}
+
+@media(max-width: 1024px) {
+	.content-decor2 {
+		height: auto;
+	}
+}
+
+/*sảnh tiệc*/
+.party-hall {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.party-hall img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px; 
+}
+
+.text-hall {
+	font-weight: bold;
+	color: white;
+	font-size: 24px;
+	height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: absolute;
+    left: -8px;
+    top: 20px;
+    background: rgba(200,156,54,0.8);
+}
+
+.text-hall:before,
+.text-hall:after {
+	content: "";
+    position: absolute;
+}
+
+.text-hall:before {
+	height: 0;
+    width: 0;
+    top: -9.5px;
+    left: 0.1px;
+    border-bottom: 9px solid #4e3d0e;
+    border-left: 9px solid transparent;
+}
+
+.text-hall:after {
+	height: 0;
+    width: 0;
+    right: -14.5px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 15px solid rgba(200,156,54,0.8);
+}
+
+/*link youtube*/
+.bg-youtube {
+	margin-top: 60px;
+	position: relative;
+}
+
+.bg-youtube img {
+	width: 100%;
+	height: 515px;
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.video-youtube {
+	position: absolute;
+	top: 36%;
+	left: 47%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	animation: Inout 5s infinite;
+}
+
+.video-youtube span {
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    border: 4px solid #fff;
+    cursor: pointer;
+  	transition: 0.3s;
+}
+
+.video-youtube i {
+	position: absolute;
+	top: 34px;
+    left: 40px;
+	color: white;
+    font-size: 30px;
+    animation: Inout 5s infinite;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 10; /* Sit on top */
+	padding-top: 150px; /* Location of the box */
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	background-color: unset;
+	border: none;
+}
+
+.modal-content iframe {
+	width: 100%;
+	height: 380px;
+}
+
+/* Add Animation */
+.modal-content {  
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+/* Add Animation */
+.modal-content {  
+  	-webkit-animation-name: zoom;
+  	-webkit-animation-duration: 0.6s;
+  	animation-name: zoom;
+  	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  	from {-webkit-transform:scale(0)} 
+  	to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  	from {transform:scale(0)} 
+  	to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 16%;
+	right: 22%;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media(max-width: 991px) {
+	.bg-youtube img {
+		height: 280px;
+	}
+
+	.video-youtube {
+		top: 30%;
+    	left: 44%;
+	}
+
+	.close {
+		top: 8%;
+		right: 8%;
+	}
+}
+
+@media(max-width: 812px) {
+	.video-youtube {
+    	left: 45%;
+	}
+
+	.close {
+		top: 22%;
+	}
+}
+
+@media(max-width: 768px) {
+	.close {
+		top: 8%;
+		right: 8%;
+	}
+}
+
+@media(max-width: 450px) {
+	.video-youtube {
+    	left: 39%;
+	}
+
+	.modal-content {
+		width: 90%;
+	}
+
+	.modal-content iframe {
+		height: 260px;
+	}
+
+	.close {
+		top: 10%;
+		right: 4%;
+	}
+}
+
+/*comment khách hàng*/
+.comment-customer {
+	background: #fff;
+    border: 1px solid #f4f4f9;
+    margin: 30px 0;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 12px 26px 0 rgb(178 178 178 / 13%);
+    box-shadow: 0 12px 26px 0 rgb(178 178 178 / 13%);
+    border-radius: 4px;
+    padding: 30px 16px;
+}
+
+#img-customer {
+	border-radius: 50%;
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.author {
+	margin-top: 30px;
+}
+
+.icon-comment1,
+.icon-comment2 {
+	font-size: 44px;
+    color: #bbbbbb;
+    line-height: normal;
+} 
+
+.icon-comment1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.icon-comment2 {
+	position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.text-name {
+	font-size: 17px;
+    line-height: 14px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.text-position {
+	margin-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.rating {
+	margin: 20px 0;
+	color: yellow;
+}
+
+.text-comment {
+	font-size: 18px;
+	color: black;
+}
+
+.arrow-color1,
+.arrow-color2 {
+	color: black;
+	position: relative;
+	bottom: 200px;
+}
+
+.arrow-color1 i{
+	position: absolute;
+    left: -55px;
+}
+
+.arrow-color2 i{
+	position: absolute;
+    right: -55px;
+}
+
+@media(max-width: 991px) {
+	.arrow-color1,
+	.arrow-color2 {
+		display: none;
+	}
+}
+
+/*tin tức mới*/
+.bg-news {
+	margin-bottom: 20px;
+}
+
+.content-news img {
+	width: 100%;
+	height: auto;
+}
+
+.content-news2 h2 {
+	font-weight: bold;
+}
+
+.content-news2 a {
+	font-size: 18px;
+    color: #151515;
+    text-transform: uppercase;
+}
+
+.text-date {
+	font-size: 14px;
+	color: #9fa6ab;
+}
+
+.text-news p {
+	font-size: 18px;
+	color: #9fa6ab;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media(max-width: 991px) {
+	.content-news img {
+		margin-bottom: 20px;
+	}
+
+	.text-news p {
+		overflow: unset;
+    	white-space: unset;
+    	text-overflow: unset;
+	}
+}
+
+/*liên hệ ngay*/
+.img-map iframe {
+	width: 100%;
+}
+
+.list-contact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.list-contact li {
+	width: 270px;
+	line-height: 24px;
+    background: #efefef;
+    border: 1px solid #e3e3e3;
+    padding: 15px 5px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.list-contact a {
+	color: #151515;
+	text-transform: uppercase;
+    z-index: 20;
+    position: relative;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.bg-input input {
+	background: white;
+	width: 100%;
+	height: 50px;
+	border: 1px solid silver;
+	color: black;
+	padding-left: 15px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.bg-input textarea {
+	background: white;
+	width: 100%;
+	height: 100px;
+	border: 1px solid silver;
+	color: black;
+	padding-top: 10px;
+	padding-left: 15px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#request {
+	padding: 15px 20px;
+    text-transform: uppercase;
+    background: #826618;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+#request:hover {
+	background: #c69930;
+}
+
+@media(max-width: 991px) {
+	.list-contact {
+		margin-top: 40px;
+	}
+}
+
+@media(max-width: 450px) {
+	.list-contact {
+		flex-wrap: wrap;
+	}
+
+	.list-contact li {
+		margin-bottom: 15px;
+	}
+}
+
+/*body trang tiệc cưới với ưu đại tiệc cưới*/
+.bg-wedding {
+	position: relative;
+	margin-top: -62px;
+}
+
+.bg-wedding img {
+	width: 100%;
+	height: 232px;
+	object-fit: cover;
+}
+
+.bg-wedding2 {
+	width: 100%;
+    height: 232px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    background: linear-gradient(45deg, 
+    	rgb(240, 100, 150),
+    	rgb(140, 200, 208));
+    opacity: 0.6;
+}
+
+.inner {
+	position: absolute;
+	top: 0;
+	padding: 90px 0;
+}
+
+.inner h1 {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.list-breadcrumb {
+	display: flex;
+	color: white;
+	margin-top: 5px;
+}
+
+.list-breadcrumb li {
+	padding-right: 10px;
+}
+
+.list-breadcrumb a{
+	color: white;
+}
+
+.bg-wedding3 {
+	margin-top: 100px;
+}
+
+.content-wedding img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.content-wedding a {
+	color: #151515;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-wedding {
+	color: #2d2d2d;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.text-wedding2 {
+	margin-bottom: 20px;
+}
+
+.text-wedding2 p {
+	color: #2d2d2d;
+	font-size: 18px;
+}
+
+.bg-sidebar {
+	padding-left: 10px;
+}
+
+.bg-sidebar h1 {
+	color: #c69930;
+	font-size: 24px;
+	padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg-sidebar h1::after {
+	content: '';
+    width: 40px;
+    background: #c69930;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+.categories {
+	border: 1px solid #f9d88a;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 15px;
+    position: relative;
+}
+
+.categories1 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories1 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories1 .menu-item-166 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+.discount-sidebar {
+	width: 100%;
+	height: auto;
+}
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+
+.fb_iframe_widget iframe {
+    position: absolute;
+    right: 0;
+}
+ 
+@media(max-width: 1024px) {
+	.fb_iframe_widget span[style] {
+		width: 250px !important;
+	}
+
+	.fb_iframe_widget iframe[style] {
+		width: 250px !important;
+	}
+}
+
+@media(max-width: 991px) {
+	.bg-wedding {
+		margin-top: 0;
+	}
+
+	.bg-sidebar {
+		margin-top: 30px;
+		padding-left: 0;
+	}
+
+	.fb_iframe_widget span[style] {
+		width: 100% !important;
+	}
+
+	.fb_iframe_widget iframe[style] {
+		width: 100% !important;
+	}
+}
+
+@media(max-width: 450px) {
+	.fb_iframe_widget iframe {	
+    	right: -10px;
+	}
+}
+
+@media(max-width: 375px) {
+	.fb_iframe_widget iframe {	
+    	right: 0;
+	}
+}
+
+/*body trang sảnh cưới*/
+.bg-hall {
+	margin: 30px 0;
+}
+
+.content-hall p {
+	font-size: 18px;
+	color: black;
+}
+
+.content-hall h1 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content-hall a {
+	color: #826618;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img-hall {
+	width: 100%;
+	height: auto;
+}
+
+.categories2 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories2 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories2 .menu-item-167 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body sảnh Tulip*/
+.bg-tulip {
+	margin-top: -62px;
+	overflow: hidden;
+	position: relative;
+}
+
+.bg-tulip img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	opacity: 0.8;
+  	animation: Inout 4s infinite;
+}
+
+.bg-tulip h1 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.bg-tulip2 {
+	background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-tulip {
+	font-size: 18px;
+	color: black;
+}
+
+.img-tulip {
+	margin: 15px 0;
+}
+
+.text-tulip2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 20px;
+} 
+
+@media(max-width: 991px) {
+	.bg-tulip {
+		margin-top: 0;
+	}
+
+	.text-tulip2 {
+		margin-top: 40px;
+	}
+}
+
+/*body trang trang trí nổi bật*/
+.content-customer h1 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.content-customer p {
+	font-size: 18px;
+	color: black;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.meta-post {
+    margin: 50px 0;
+    font-weight: 500;
+    color: #151515;
+}
+
+.share {
+	display: inline-block;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.meta-post span {
+    margin-right: 10px;
+}
+
+.social-media {
+	display: inline-block;
+}
+
+.social-media a {
+    background: #fff;
+    border: 1px solid #f9d88a;
+    border-radius: 2px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+}
+
+.social-media i {
+    font-size: 15px;
+}
+
+.social-media a:hover {
+    color: #ffffff;
+    background: #f9d88a;
+}
+
+.categories3 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories3 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories3 .menu-item-168 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+@media(max-width: 991px) {
+	.bg-wedding3 {
+		margin-top: 20px;
+	}
+}
+
+/*body trang thực đơn wedding*/
+.tab-content {
+    border: 1px solid #f9d88a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.tab-content img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+.tab-content p {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.categories4 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories4 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories4 .menu-item-169 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body lễ cưới ấn tượng*/
+.impression-img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.categories5 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories5 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories5 .menu-item-170 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body trang sự kiện công ty*/
+
+.categories6 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories6 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories6 .menu-item-179 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body trong hội họp company*/
+.content-event h1 {
+	margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.content-event p {
+	font-size: 18px;
+	color: black;
+	line-height: 2;
+}
+
+.meeting-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.categories7 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories7 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories7 .menu-item-180 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body tiệc công ty*/
+.categories8 li {
+	border-bottom: 1px dashed #efefef;
+    list-style: none;
+    padding: 7px 0;
+}
+
+.categories8 a {
+	font-size: 16px;
+	color: black;
+}
+
+.categories8 .menu-item-181 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body tiệc chúc mừng*/
+.text-congratulation {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.text-congratulation2 {
+	font-size: 18px;
+	color: black;
+	line-height: 2;
+}
+
+/*body trang Tin tức*/
+.content-news {
+	border: 1px solid #f9d88a;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.content-news img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.text-news1 a {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.text-news2 p {
+	font-size: 18px;
+	color: black;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search {
+    height: 40px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.search input {
+	border: 1px solid #c69930;
+	background: #FFF;
+    color: #888;
+    float: left;
+    font-size: 13px;
+    height: 42px;
+    letter-spacing: 1px;
+    padding: 10px;
+    padding-right: 40px;
+    width: 100%;
+    outline: none;
+}
+
+.btn-search {
+	background: none;
+    border: none;
+    color: #2d2d2d;
+    float: left;
+    right: 0;
+    font-size: 14px;
+    height: 42px;
+    line-height: 40px;
+    min-width: 40px;
+    position: absolute;
+    vertical-align: bottom;
+    border-left: 1px solid #c69930;
+}
+
+/*body trang single tin tức*/
+.post-title {
+	font-weight: bold;
+	font-size: 28px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.bg-single {
+	margin-top: 30px;
+}
+
+.news-single p {
+	text-align: justify;
+	font-size: 18px;
+	color: black;
+}
+
+.news-single img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-single div[style] {
+    width: 100% !important;
+}
+
+.text-single {
+	padding: 8px 10px;
+    background: #e3e3e3;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-single a {
+	color: #2d2d2d; 
+}
+
+/*body trang tìm kiếm*/
+.content-search img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.text-search {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.text-search a {
+	color: black;
+}
+
+.text-search2 {
+	font-size: 18px;
+	color: black;
+}
+
+/*body trang lịch cưới*/
+.wedding-calendar {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.text-calendar {
+	font-size: 18px;
+	color: rgba(206,160,48,1);
+}
+
+.text-calendar2 {
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.text-invitation {
+	display: inline-block;
+	font-size: 60px;
+    margin: 0px;
+    font-family: GreatVibes;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.text-invitation2 {
+	text-transform: capitalize;
+	font-size: 20px;
+	color: #797979;
+	padding: 0px 50px;
+}
+
+.text-invitation3 {
+	font-size: 35px;
+	color: rgba(206,160,48,1);
+	font-weight: bold;
+}
+
+.text-invitation4 {
+	font-size: 42px;
+	color: black;
+	padding: 0 65px;
+}
+
+.img-invitation {
+	border-radius: 50%;
+	width: 270px;
+	height: 270px;
+	object-fit: cover;
+}
+
+.text-invitation5 {
+	font-size: 30px;
+	color: rgba(206,160,48,1);
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.text-invitation6 {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  	background-color: rgba(206,160,48,1);
+  	color: white;
+    transform: skew(-20deg, 0deg);
+    -moz-transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    -o-transform: skew(-20deg, 0deg);
+    -ms-transform: skew(-20deg, 0deg);
+}
+
+.text-invitation6 p {
+	color: white;
+}
+
+.detail-invitation {
+	background: rgba(206,160,48,1);
+	color: white;
+	font-size: 18px;
+	width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.detail-invitation:hover {
+	color: white;
+	background: black;
+	transition: 0.5s;
+}
+/*body trang mẫu thiệt cưới*/
+
+/*mẫu 1*/
+.bg-template1 {
+	width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.bg-template1:before {
+	content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: -80px;
+    margin: 0px auto;
+    background-color: #f07677;
+    height: 150px;
+    -webkit-border-radius: 0px 0px 150px 150px;
+    -moz-border-radius: 0px 0px 150px 150px;
+    border-radius: 0px 0px 150px 150px;
+    width: 285px;
+    z-index: -1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.bg-template1:after {
+	content: "";
+    position: absolute;
+    top: 0px;
+    left: -80px;
+    right: 0px;
+    margin: 0px auto;
+    background-color: #f07677;
+    height: 150px;
+    -webkit-border-radius: 150px 150px 0px 0px;
+    -moz-border-radius: 150px 150px 0px 0px;
+    border-radius: 150px 150px 0px 0px;
+    width: 285px;
+    z-index: -1;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.img-template {
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+	margin-top: 40px;
+}
+
+@media(max-width: 991px) {
+	.img-template {
+		height: auto;
+	}
+}
+
+.bg-breadcrumb {
+	border: 1px solid #c69930;
+	border-radius: 10px;
+	margin-top: 35px;
+}
+
+.text-breadcrumb {
+	color: #c69930;
+    font-size: 30px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+}
+
+.breadcrumb-invitation {
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+}
+
+.breadcrumb-invitation a {
+	color: black;
+	font-size: 18px;
+}
+
+.breadcrumb-invitation .menu-item-864 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*mẫu 2*/
+.breadcrumb-invitation2 {
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+}
+
+.breadcrumb-invitation2 a {
+	color: black;
+	font-size: 18px;
+}
+
+.breadcrumb-invitation2 .menu-item-863 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*mẫu 3*/
+.breadcrumb-invitation3 {
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+}
+
+.breadcrumb-invitation3 a {
+	color: black;
+	font-size: 18px;
+}
+
+.breadcrumb-invitation3 .menu-item-862 a {
+	color: #c69930;
+	font-weight: bold;
+}
+
+/*body trang contact*/
+.bg-map iframe {
+	width: 100%;
+}
+
+.bg-contact {
+	margin-top: 50px;
+}
+
+.bg-contact p {
+	color: black;
+	font-size: 18px;
+}
+
+.list-map {
+	line-height: 3;
+}
+
+.list-map li {
+	display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #ffffff;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 18px;
+    border: 1px solid #e3e3e3;
+}
+
+.list-map a {
+	color: black;
+}
+
+.list-map i {
+	margin-right: 20px;
+    float: left;
+    width: 40px;
+    height: 43px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    background-color: #e3e3e3;
+    color: #2d2d2d;
+}
+
+.list-map2 {
+	display: flex;
+	margin-top: 40px;
+}
+
+.list-map2 li {
+	margin-right: 10px;
+	border: 1px solid #e3e3e3;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.list-map2 a {
+	color: #e3e3e3;
+}
+
+.list-map2 i {
+	font-size: 18px;
+}

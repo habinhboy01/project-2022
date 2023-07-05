@@ -1,0 +1,399 @@
+/* mobile */
+@media (min-width: 1690px) {
+  /* .lf-royal-dining-pc__text-bg-1::before,
+    .lf-royal-dining-pc__text-bg-2::before {
+        height: 50%;
+    } */
+}
+
+@media (max-width: 991px) {
+  body {
+    display: block;
+  }
+
+  .font-style-02 {
+    font-size: 25px;
+  }
+
+  .longform-title,
+  .longform-title-highlight {
+    font-size: calc(1.5rem + 3.725vw);
+  }
+
+  /* Header LF EX */
+  .longform-ex-hd {
+    padding-bottom: 30px;
+    padding-top: 55px;
+    position: relative;
+  }
+
+  .longform-ex-hd__img-bg-top {
+    /* position: absolute;
+         top: 0; */
+    width: 100%;
+    z-index: 1;
+  }
+
+  .longform-ex-hd__img {
+    position: relative;
+    z-index: 3;
+    max-width: 350px;
+    margin: 0 auto;
+    /* margin-top: calc(-75px - 25vw); */
+  }
+
+  .longform-ex-hd__img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .longform-ex-hd__title img {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+  .longform-ex-hd__content-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .longform-top img {
+    width: 100%;
+    position: relative;
+  }
+
+  .longform-top-img-1 {
+    z-index: 3;
+  }
+
+  .longform-top-img-2 {
+    margin-top: calc(-80px - 10vw);
+    z-index: 2;
+  }
+
+  .longform-top-img-3 {
+    /*margin-top: calc(-48px - 20vw);*/
+    z-index: 1;
+  }
+
+  .longform-bt {
+    margin-top: calc(-75px - 40vw);
+    position: relative;
+    z-index: 1;
+  }
+
+  .longform-ex-content {
+    padding: 25px 0;
+  }
+
+  .longform-ex-ss {
+    padding: 25px 35px;
+  }
+
+  .longform-ex-ss-1,
+  .longform-ex-ss-2 {
+    display: flex;
+  }
+
+  .longform-ex-ss-1 .longform-ex-text-vertical {
+    min-width: 32px;
+    margin-right: 10px;
+  }
+
+  .longform-description {
+    font-family: "Mallory-Light";
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.7;
+  }
+
+  .longform-ex-ss-2 .longform-ex-text-vertical {
+    min-width: 25px;
+    margin-right: 10px;
+  }
+
+  .longform-ex-phone-num {
+    font-size: calc(1.75rem + 2vw);
+    font-family: "Helvetica-Bold";
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .longform-ex-info-label {
+    font-size: 18px;
+    font-family: "Helvetica-Medium";
+    margin-bottom: 10px;
+  }
+
+  .longform-ex-or {
+    margin-bottom: 1rem;
+    font-size: 18px;
+  }
+
+  .longform-ex-address {
+    font-size: calc(0.7rem + 0.8vw);
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .longform-ex-hd__content .longform-desc {
+    max-width: 337px;
+    margin: 0 auto;
+  }
+
+  .longform-ex-hd__slider {
+    padding-bottom: 40px;
+  }
+
+  .longform-ex-hd__slider-img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .longform-ex-hd__slider-desc {
+    max-width: 274px;
+    margin: 0 auto;
+  }
+
+  .longform-ex-hd__slider .slick-dots {
+    bottom: -25px;
+  }
+
+  .lf-ex-thebluelabel {
+    background-image: url("../images/BG_bluelabel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .lf-ex-thebluelabel__img-wrap {
+    margin-bottom: 70px;
+  }
+
+  .lf-ex-thebluelabel__logo {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* Royal Dining  */
+  .lf-royal-dining-mb {
+    display: block;
+  }
+
+  .lf-royal-dining-pc {
+    display: none;
+  }
+
+  .lf-royal-dining__img-top::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/mobile/royal-img-top-before.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: -13%;
+    left: -29%;
+  }
+
+  .lf-royal-dining__content {
+    position: relative;
+    --height-mb-bg: 50%;
+  }
+
+  .lf-royal-dining__content-before-bg,
+  .lf-royal-dining__content-after-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewY(-20deg);
+    -ms-transform: skewY(-20deg);
+    transform: skewY(-20deg);
+    z-index: -1;
+  }
+
+  .lf-royal-dining__content-before-bg {
+    top: calc(81% + -2px);
+    height: var(--height-mb-bg);
+    background-image: -webkit-linear-gradient(to left, #775421, #ae7e2c);
+    background-image: -ms-linear-gradient(to left, #775421, #ae7e2c);
+    background-image: linear-gradient(to left, #775421, #ae7e2c);
+  }
+
+  .lf-royal-dining__content-after-bg {
+    bottom: calc(51% + -1px);
+    height: var(--height-mb-bg);
+    background-image: -webkit-linear-gradient(to right, #ae7e2c, #775421);
+    background-image: -ms-linear-gradient(to right, #ae7e2c, #775421);
+    background-image: linear-gradient(to right, #ae7e2c, #775421);
+  }
+
+  .lf-royal-dining__content-main {
+    z-index: 5;
+    position: relative;
+  }
+
+  .lf-royal-dining__content-before,
+  .lf-royal-dining__content-after {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* .lf-royal-dining__content-before::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-image: -webkit-linear-gradient(to bottom left, #725020, #8e6427);
+    background-image: -ms-linear-gradient(to bottom left, #725020, #8e6427);
+    background-image: linear-gradient(to bottom left, #725020, #8e6427);
+    height: 100%;
+    top: 81%;
+    left: 0;
+    transform: skewy(-21deg);
+    z-index: -1;
+  }
+
+  .lf-royal-dining__content-after::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-image: -webkit-linear-gradient(to bottom left, #775421, #8e6427);
+    background-image: -ms-linear-gradient(to bottom left, #775421, #8e6427);
+    background-image: linear-gradient(to bottom left, #775421, #8e6427);
+    height: 100%;
+    top: -52%;
+    left: 0;
+    transform: skewy(-20deg);
+    z-index: -1;
+  } */
+
+  .lf-royal-dining__content-after {
+    position: relative;
+    z-index: 2;
+    margin-top: -82px;
+  }
+
+  .lf-royal-dining__logo {
+    max-width: 315px;
+    margin: 0 auto;
+  }
+
+  .lf-royal-dining__img-top-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    z-index: 5;
+  }
+
+  .lf-ex-bottom__header-product {
+    margin-top: -31vw;
+  }
+
+  .lf-ex-bottom__header-title {
+    font-size: 48px;
+  }
+
+  .lf-ex-bottom__content--mb {
+    display: block;
+  }
+
+  .lf-ex-bottom__logo {
+    max-width: 205px;
+  }
+
+  /* address */
+
+  .ss-address {
+    padding: 53% 0;
+  }
+
+  .ss-address::before {
+    background-image: url("../images/bg-add-left-mb.png");
+    background-size: contain;
+    background-position: right top;
+    width: 100%;
+    padding-top: 53%;
+  }
+
+  .ss-address::after {
+    background-image: url("../images/bg-add-right-mb.png");
+    width: 100%;
+    padding-top: 53%;
+    background-size: contain;
+    background-position: left bottom;
+  }
+
+  .ss-address__logo {
+    padding-top: 69%;
+  }
+
+  .ss-address__content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .longform-top--mb {
+    display: block;
+  }
+
+  .longform-top--pc {
+    display: none;
+  }
+
+  .longform-top--mb .longform-top__first {
+    position: relative;
+  }
+
+  .longform-top--mb .longform-top__logo-wrap {
+    position: absolute;
+    top: 18%;
+    z-index: 5;
+    width: 100%;
+  }
+
+  .longform-top--mb .longform-top__logo {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+
+  .lf-ex-service-mb {
+    display: block;
+  }
+
+  .lf-ex-service-pc {
+    display: none;
+  }
+}
+
+@media (max-width: 576px ) {
+    .lf-ex-thebluelabel__johnie {
+        display: none;
+    }
+    
+    .lf-ex-thebluelabel__wine {
+        left: 0;
+    }
+}
+@media (orientation: portrait) {
+  .longform-ex-hd__img-bg-top {
+    position: relative;
+    padding-top: 74.121%;
+  }
+
+  .longform-ex-hd__img-bg-top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+  }
+
+  .longform-ex-hd__img {
+    margin-top: calc(-75px - 25vw);
+  }
+}

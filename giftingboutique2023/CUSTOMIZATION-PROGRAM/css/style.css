@@ -1,0 +1,561 @@
+/* Mallory */
+@font-face {
+  font-family: "Mallory-Regular";
+  src: url("./Fonts/Document fonts/Document fonts/Mallory\ Book\ Regular.ttf");
+}
+@font-face {
+  font-family: "Mallory-Bold";
+  src: url("./Fonts/Mallory/Mallory\ MP\ Bold\ Regular.ttf");
+}
+@font-face {
+  font-family: "Mallory-Light";
+  src: url("./Fonts/Mallory/Mallory\ Light\ Regular.ttf");
+}
+
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("./Fonts/Helvetica/SVN-Helvetica\ Neue\ Bold.ttf");
+}
+@font-face {
+  font-family: "Helvetica-Regular";
+  src: url("./Fonts/Helvetica/helvetica-neue-regular.ttf");
+}
+@font-face {
+  font-family: "Helvetica-Medium";
+  src: url("./Fonts/Helvetica/helvetica-neue-medium.ttf");
+}
+
+/* iCielTungstenNarrow */
+@font-face {
+  font-family: "iCielTungstenNarrow-Regular";
+  src: url("./Fonts/Document fonts/Document fonts/iCielTungstenNarrow-Book.otf");
+}
+
+@font-face {
+  font-family: "iCielTungstenNarrow-Medium";
+  src: url("./Fonts/Document fonts/Document fonts/iCielTungstenNarrow-Medium.otf");
+}
+
+@font-face {
+  font-family: "iCielTungstenNarrow-Semibold";
+  src: url("./Fonts/Document fonts/Document fonts/iCielTungstenNarrow-Semibold.otf");
+}
+
+/* Karloff */
+@font-face {
+  font-family: "Karloff-Negative";
+  src: url("./Fonts/Document fonts/Document fonts/Karloff\ Negative\ Pro\ Bold.otf");
+}
+@font-face {
+  font-family: "Karloff-Positive";
+  src: url("./Fonts/Document fonts/Document fonts/Karloff\ Positive\ Pro\ Bold.otf");
+}
+/* GretaTextPro */
+@font-face {
+  font-family: "GretaTextPro";
+  src: url("./Fonts/Document fonts/Document fonts/GretaTextPro-RegularMin.otf");
+}
+
+@font-face {
+  font-family: "Traulha";
+  src: url("./Fonts/Traulha WEB Jornau.ttf");
+}
+
+@font-face {
+  font-family: "SVN-Helvetica";
+  src: url("./Fonts/Document fonts/Document fonts/SVN-Helvetica Neue Bold.ttf");
+}
+
+:root {
+  --font-primary-regular: "Mallory-Regular";
+  --font-secondary-regular: "Helvetica-Regular";
+  --font-tertiary-regular: "iCielTungstenNarrow-Regular";
+  --font-tertiary-medium: "iCielTungstenNarrow-Medium";
+  --font-tertiary-semibold: "iCielTungstenNarrow-Semibold";
+  --font-fourth-1: "Karloff-Positive";
+  --font-fourth-2: "Karloff-Negative";
+  --font-fifth-1: "GretaTextPro";
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.longform-container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text-mode-vertical-btt {
+  writing-mode: vertical-lr;
+  -webkit-transform: scale(-1);
+  -ms-transform: scale(-1);
+  transform: scale(-1);
+}
+
+.font-style-01 {
+  font-family: var(--font-primary-regular);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.font-style-02 {
+  font-family: var(--font-fourth-1);
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.font-style-03 {
+  font-family: var(--font-tertiary-regular);
+  font-size: 32px;
+  line-height: 1.05;
+}
+
+.font-style-04 {
+  font-family: var(--font-fifth-1);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.font-style-05 {
+  font-family: var(--font-tertiary-medium);
+  font-size: 36px;
+  line-height: 1;
+}
+/* Slider arrow light */
+.lf-slide-arrow-light .slick-prev {
+  left: 0;
+  background: no-repeat center/contain url("../images/arrow-left-light.png");
+}
+
+.lf-slide-arrow-light .slick-next {
+  right: 0;
+  background: no-repeat center/contain url("../images/arrow-right-light.png");
+}
+
+.lf-slide-arrow-light .slick-arrow {
+  width: 30px;
+  height: 30px;
+  z-index: 5;
+}
+
+.lf-slide-arrow-light .slick-arrow::before {
+  content: none;
+}
+/* Slider dots */
+.slick-dots li button:before {
+  font-size: 15px;
+  color: rgba(196, 196, 196, 0.31);
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #c4c4c4;
+}
+
+.lf-program-intro__inner,
+.lf-program-intro__image-group {
+  position: relative;
+}
+
+.lf-program-intro__logo {
+  position: absolute;
+  top: 13.84%;
+  left: 15.5%;
+  width: 27%;
+  height: 53.51%;
+}
+
+.lf-program-intro__title {
+  font-size: 40px;
+  line-height: 1.05;
+  background: linear-gradient(93.04deg, #c9ab7c 19.81%, #ead7a3 74.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-tertiary-medium);
+  text-transform: uppercase;
+}
+
+.lf-program-main {
+  background: no-repeat center/cover url("../images/BG\ 1.png");
+  padding-bottom: 70px;
+}
+
+.lf-top__container {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.lf-top__image {
+  padding: 50px 0;
+}
+
+.lf-top__title {
+  font-family: var(--font-fourth-2);
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.lf-top__title,
+.lf-top__content {
+  margin-bottom: 35px;
+}
+/* ==== Start ss title ====*/
+.lf-ss-title {
+  padding: 27px 0;
+  position: relative;
+}
+
+.lf-ss-title::before {
+  position: absolute;
+  top: 0;
+}
+
+.lf-ss-title::after {
+  position: absolute;
+  bottom: 0;
+}
+
+.lf-ss-title::before,
+.lf-ss-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(to right, #c9ab7c, #ead7a3);
+  background-image: -webkit-linear-gradient(to right, #c9ab7c, #ead7a3);
+  background-image: -ms-linear-gradient(to right, #c9ab7c, #ead7a3);
+}
+
+.lf-ss-title h3 {
+  font-family: var(--font-fourth-2);
+  font-weight: 700;
+  font-size: calc(22px + 1.2vw);
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(93.04deg, #c9ab7c 19.81%, #ead7a3 74.09%);
+  background: -ms-linear-gradient(93.04deg, #c9ab7c 19.81%, #ead7a3 74.09%);
+  background: linear-gradient(93.04deg, #c9ab7c 19.81%, #ead7a3 74.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+/* ==== End ss title ====*/
+
+/* ===== Start Collection Tet */
+.collection-dots__product {
+  position: relative;
+  padding-top: 127.2%;
+}
+
+.collection-dots__product img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.collection-tet-nav .collection-dots__product--2 img,
+.collection-tet-nav .collection-dots__product--3 img {
+  top: 10%;
+}
+
+.collection-tet-nav .collection-dots__product--4 img {
+  top: 12%;
+}
+
+.collection-tet-nav {
+  --lengthItem: 4;
+}
+
+.collect-slider__item-left,
+.collect-slider__item-right {
+  width: 100%;
+}
+
+.collect-slider .slick-prev {
+  left: -70px;
+}
+
+.collect-slider .slick-next {
+  right: -70px;
+}
+
+.collection-dots .slick-dots {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collect-wedding-slider__list .slick-slide:not(.slick-cloned)h4 {
+  color: red;
+}
+
+/* .collect-wedding-slider__list .slick-slide:not(.slick-cloned):nth-of-type(5) h4 {
+    color: blue;
+} */
+
+.collection-dots .slick-dots li {
+  height: auto;
+  width: auto;
+  margin: 0;
+  display: block;
+  width: calc(100% / var(--lengthItem));
+}
+
+.collection-wedding-nav .collection-dots__product--3 img,
+.collection-wedding-nav .collection-dots__product--4 img,
+.collection-wedding-nav .collection-dots__product--5 img {
+  top: 9%;
+}
+
+.collection-wedding-nav .collection-dots__product--2 img {
+  top: 7%;
+}
+
+.collection-personalized-nav .collection-dots__product--1 img {
+  top: 12%;
+}
+
+.collection-personalized-nav .collection-dots__product--2 img {
+  top: 11%;
+}
+
+.collection-personalized-nav .collection-dots__product--3 img {
+  top: 3%;
+}
+
+.collection-personalized-nav .collection-dots__product--3 img {
+  top: 4%;
+}
+/* ===== Dots custom ===== */
+
+.dots-custom {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  height: fit-content;
+  width: max-content;
+  z-index: 5;
+}
+
+.dots-custom li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.dots-custom li button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  opacity: 0.3;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.dots-custom li.slick-active button {
+  opacity: 1;
+}
+
+.collect-storage {
+  display: none;
+}
+/* ===== End Dots custom ===== */
+@media (orientation: portrait) {
+  .lf-program-intro__image-group {
+    padding-top: 177.5%;
+  }
+
+  .lf-program-intro__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+  }
+
+  .lf-program-intro__logo {
+    top: 24%;
+    left: 22.13%;
+    width: 55.73%;
+    height: 39.612%;
+  }
+
+  .lf-program-intro__title {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .lf-top__image {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .lf-program-intro__title {
+    position: absolute;
+    bottom: 6.5%;
+    right: 5.2%;
+    font-size: calc(50px + 4.61vw);
+  }
+
+  .lf-top__image {
+    padding: 0 0 calc(50px + 2vw);
+  }
+
+  .lf-top__title {
+    font-size: calc(50px + 4.61vw);
+  }
+
+  .lf-top__title,
+  .lf-top__content {
+    margin-bottom: 60px;
+  }
+
+  .lf-ss-title h3 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .collect-slider__item-right {
+    width: 370px;
+  }
+
+  .collect-slider__item-left {
+    flex: 1;
+  }
+
+  .collect-personalized-section .lf-ss-title h3 br {
+    display: none;
+  }
+
+  .collection-wedding-item { 
+    width: calc(100% / 5);
+  }
+}
+
+@media (min-width: 1690px) {
+  .lf-program-intro__title,
+  .lf-top__title {
+    font-size: 128px;
+  }
+}
+
+/* ---- Start Section Address Bottom ----- */
+/* ---- Start Section Address Bottom ----- */
+/* ---- Start Section Address Bottom ----- */
+/* ---- Start Section Address Bottom ----- */
+/* ---- Start Section Address Bottom ----- */
+
+.ss-address {
+  position: relative;
+  background-color: #101726;
+}
+
+.slider__fourth-item-thumb-bg-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.ss-address::before,
+.ss-address::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+.ss-address::before {
+  left: 0;
+  background: url("../images/bg-add-left.png") left top/contain no-repeat;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.ss-address::after {
+  right: 0;
+  top: initial;
+  bottom: 0;
+  background: url("../images/bg-add-right.png") right bottom/contain no-repeat;
+  height: 80%;
+  width: calc(100% / 3);
+}
+
+.ss-address__container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.ss-address__content {
+  font-family: "Traulha";
+  font-size: 18px;
+  padding: 50px;
+
+  position: relative;
+  z-index: 10;
+}
+
+.ss-address__row:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.ss-address__content h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.ss-address__logo {
+  position: relative;
+  padding-top: 54%;
+  width: 100%;
+}
+
+.ss-address__logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* ---- End Section Address Bottom ----- */
+/* ---- End Section Address Bottom ----- */
+/* ---- End Section Address Bottom ----- */
+/* ---- End Section Address Bottom ----- */
+/* ---- End Section Address Bottom ----- */

@@ -1,0 +1,210 @@
+/*
+ * |---:[Đoạn này sẽ chứa các đoạn giới thiệu và thông tin về theme, như tên theme (Theme Name), tên tác giả (Theme Author), địa chỉ của tác giả (Author URI),...]:---|
+ 
+ * Theme Name: Biotech
+ * Description: Đây là một theme đơn giản để thực hành Lập trình theme WordPress
+ * Theme URI: http://biotech.com
+ * Version: 1.0
+ * Author: Phương Nam
+ * Author URI: http://biotech.com
+ * Tags: starter theme, framework theme, two-columns, customize
+ * Textdomain: biotech
+ */
+
+
+ /*menu pc*/
+.menu_pc {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin-top: 20px;
+}
+
+.list_menu1 {
+	width: 44%;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.list_menu2 {
+	align-items: center;
+	width: 12%;
+	margin-top: 15px;
+}
+
+.list_menu1 a {
+	font-size: 16px;
+	font-style: normal;
+	color: #0B638D;
+	font-weight: bold;
+}
+
+.display_menu {
+	display: none;
+}
+
+/*menu mobile*/
+@media(max-width: 991px) {
+	.menu_pc{
+		display: none;
+	}
+
+	.display_menu {
+		display: block;
+	}
+
+	/*button bar*/
+
+	.all_bar {
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.bar1, .bar2, .bar3 {
+		width: 35px;
+		height: 5px;
+		background-color: #0B638D;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
+
+	.change .bar1 {
+	  	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	  	transform: rotate(-45deg) translate(-9px, 6px);
+	}
+
+	.change .bar2 {opacity: 0;}
+
+	.change .bar3 {
+	  	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	  	transform: rotate(45deg) translate(-8px, -8px);
+	}	
+
+	.menu_mobile {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 20px;
+	}
+
+	.sub_menu_mobile {
+		display: none;
+		background: #0B638D;
+		text-align: center;
+		line-height: 2.5;
+	}
+
+	.sub_menu_mobile a {
+		color: white;
+		font-size: 16px;
+	}
+
+	.sub_menu_mobile li {
+		border-bottom: 1px solid white;
+	}
+}
+
+@media(max-width: 450px) {
+	.menu_mobile img {
+		width: 60%;
+	}
+}
+
+/*xứ lý menu */
+.list_menu1 a:hover {
+	box-shadow: 0 2px #77A32C;
+	transition: 0.6s;
+}
+
+/*footer*/
+.bg_footer {
+	background-color: #15669C;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 70px;
+}
+
+.logo_footer {
+	width: 15%;
+	padding: 30px 0;
+}
+
+.menu_footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.menu_footer a {
+	color: white;
+	font-size: 15px;
+}
+
+.menu_footer button {
+	background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: Nunito;
+}
+
+.menu_footer li {
+	padding: 5px 15px;
+}
+
+.menu_footer2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.menu_footer2 li {
+	margin: 5px 15px;
+    padding: 11px 0;
+    width: 50px;
+    height: 50px;
+	background-color: #09456A;
+	border-radius: 50px;
+}
+
+.menu_footer2 img {
+	width: 50%;
+}
+
+.bg_footer2 {
+	background-color: #09456A;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 17px;
+}
+
+.back_top {
+	background-color: #77A32C;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.back_top i {
+	color: white;
+	font-size: 22px;
+}
+
+@media(max-width: 991px) {
+	.back_top {
+		display: none;
+	}
+}
+
+@media(max-width: 450px) {
+	.logo_footer {
+		width: 50%;
+	}
+
+	.bg_footer2 {
+		padding-top: 10px;
+	}
+}

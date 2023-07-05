@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>JOHN WALKER & SONS King George V</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/bootstrap5/css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="../../vendor/fontawesome-free-5.15.3-web/css/all.min.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../vendor/OwlCarousel/dist/assets//owl.theme.default.min.css">
+
+    <!-- library animation -->
+    <link rel="stylesheet" type="text/css" href="../../css/aos.css">
+    <link rel="shortcut icon" type="image/png" href="../../images/favicon.ico" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+    <!-- Style Menu -->
+    <?php
+    $direct = '../../../';
+    ?>
+    <link rel="stylesheet" href="<?php echo $direct ?>assets/css/menu.css" />
+</head>
+
+    
+
+    <!-- phần thân -->
+
+    <div class="owl-carousel owl-theme carousel_1" id="JohnnieWalkerLimitedEditionSlider">
+
+        <!-- slider 5 -->
+
+        <div class="item">
+            <img src="../../images/img10-1.png">
+        </div>
+
+    </div>
+
+    <!-- nội dung -->
+
+    <div class="bg-johnnie-walker bg-johnnie-walker5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 text-center">
+                    <img id="img-johnnie-walker2" src="../../images/img23.png">
+                </div>
+
+                <div class="col-lg-8 col-12">
+                    <h2 class="text-limied3">Bảo chứng hoàng gia</h2>
+
+                    <p class="text-limied4">Được chế tác nhân kỷ niệm cột mốc trọng đại khi nhà pha chế John
+                        Walker & Sons được nhận Chứng nhận Hoàng gia của Vua George V vào năm 1934. Đây là tuyệt
+                        phẩm mang hương vị và đẳng cấp Hoàng gia. Với kho tàng kiến thức khổng lồ, đội ngũ
+                        chuyên gia pha chế do bậc thầy Jim Beveridge dẫn đầu, đã chắt lọc thủ công những dòng
+                        whisky thượng hạng dưới triều đại vua George V, bao gồm những dòng whisky từ Benrinnes,
+                        Caol Ila, Cardhu và nhà chưng cất huyền thoại Port Ellen để kết hợp hương vị, tạo nên
+                        một sự cân bằng hoàn hảo giữa các loại gia vị, trái cây sấy, vanilla, sô-cô-la đen và
+                        kẹo bơ cứng. Phong phú về kết cấu, cân bằng trong chất vị và kết thúc trong hương khói
+                        nồng đượm, để lại dư âm kéo dài.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Header Menu -->
+    <?php
+    $isTab = 'standard';
+    $isPage = 'standard-blended';
+    require_once $direct .'header-menu.php' ?>
+
+
+    <!-- footer -->
+    <?php
+    require_once $direct .'footer.php';
+    ?>
+
+<!-- bootstrap -->
+<script src="../../vendor/bootstrap5/js/bootstrap.min.js"></script>
+
+<!-- Thư Viện carousel js -->
+<script src="../../vendor/OwlCarousel/dist/owl.carousel.min.js"></script>
+
+<!-- library animation js -->
+<script type="text/javascript" src="../../js/aos.js"></script>
+
+<!-- My Js -->
+<script type="text/javascript" src="../../js/blended-scotch-whisky.js"></script>
+<script type="text/javascript" src="../../js/style.js"></script>
+
+
+<script>
+    AOS.init();
+</script>
+</body>
+
+</html>

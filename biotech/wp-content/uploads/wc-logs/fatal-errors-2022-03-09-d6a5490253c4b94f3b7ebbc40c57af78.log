@@ -1,0 +1,55 @@
+2022-03-09T06:57:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\biotech\wp-includes\Requests\Transport\cURL.php on line 484
+
+2022-03-09T07:00:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\biotech\wp-includes\Requests\Transport\cURL.php on line 484
+
+2022-03-09T07:46:41+00:00 CRITICAL syntax error, unexpected '20' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php on line 57
+
+2022-03-09T07:51:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php:57
+Stack trace:
+#0 C:\xampp\htdocs\biotech\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\biotech\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\biotech\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\index.php(9): get_header()
+#4 C:\xampp\htdocs\biotech\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\biotech\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\biotech\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php on line 57
+
+2022-03-09T07:51:19+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php:57
+Stack trace:
+#0 C:\xampp\htdocs\biotech\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\biotech\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\biotech\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\index.php(9): get_header()
+#4 C:\xampp\htdocs\biotech\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\biotech\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\biotech\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php on line 57
+
+2022-03-09T07:51:24+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php:57
+Stack trace:
+#0 C:\xampp\htdocs\biotech\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\biotech\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\biotech\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\index.php(9): get_header()
+#4 C:\xampp\htdocs\biotech\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\biotech\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\biotech\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\header.php on line 57
+
+2022-03-09T08:34:51+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\category.php on line 50
+
+2022-03-09T08:36:26+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\category.php on line 46
+
+2022-03-09T08:55:25+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\biotech\wp-includes\query.php:28
+Stack trace:
+#0 C:\xampp\htdocs\biotech\wp-content\themes\biotech_themes\category.php(37): get_query_var('paged')
+#1 C:\xampp\htdocs\biotech\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\biotech\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\biotech\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\biotech\wp-includes\query.php on line 28
+
